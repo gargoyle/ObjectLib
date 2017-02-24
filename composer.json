@@ -1,0 +1,27 @@
+{
+    "name": "pmc/objectlib",
+    "description": "A collection of mostly value objects and other simple classes which I find myself using over and over again in different projects.",
+    
+    "authors": [
+        {
+            "name": "Gargoyle",
+            "email": "g@rgoyle.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Pmc\\Session\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Pmc\\Session\\Tests\\": "tests/" }
+    },
+    "require": {
+        "php": "^7.1",
+        "ramsey/uuid": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
