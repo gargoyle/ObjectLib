@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4" : {
-            "Pmc\\Session\\" : "src/"
+            "Pmc\\ObjectLib\\" : "src/"
         }
     },
     "autoload-dev": {
         "psr-4": { 
-            "Pmc\\Session\\Tests\\": "tests/" }
+            "Pmc\\ObjectLib\\Tests\\": "tests/" }
     },
     "require": {
         "php": "^7.1",
