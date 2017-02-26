@@ -17,12 +17,12 @@ class Id
 
     public function __construct()
     {
-        $this->value = Uuid::uuid4();
+        $this->value = Uuid::uuid1();
     }
 
     public function __toString(): string
     {
-        $this->value->toString();
+        return $this->value->toString();
     }
     
     public function equals(self $other): bool
@@ -32,7 +32,9 @@ class Id
 
     public static function fromString(string $id): self
     {
-        $this->value = Uuid::fromString($id);
+        $instance = new self();
+        $instance->value = Uuid::fromString($id);
+        return $instance;
     }
 
 }

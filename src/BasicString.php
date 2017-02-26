@@ -24,7 +24,6 @@ abstract class BasicString
                     static::class));
         }
 
-        // Add a constraint of 50 chars.
         if (mb_strlen($sanitizedValue) > $maxLength) {
             throw new \InvalidArgumentException(sprintf(
                     'Value cannot be longer than %s characters',

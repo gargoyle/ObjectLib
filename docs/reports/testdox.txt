@@ -1,0 +1,22 @@
+Pmc\ObjectLib\Tests\TestBasicString
+ [x] Will not construct with blank string
+ [x] Will not construct when string is longer than max allowed
+ [x] Will cast to string
+ [x] Apostrophe in string
+ [x] Non printable characters are sanitised 
+ [x] Utf 8 characters are preserved 
+ [x] Is equal to other with the same value
+ [x] Is not equal to other with different value
+
+Pmc\ObjectLib\Tests\Id
+ [x] New instance has new id
+ [x] Can create from existing id
+ [x] The same ids are equal
+
+Pmc\ObjectLib\Tests\MultilineString
+ [x] Will not construct with blank string
+ [x] Blank strings allowed with additional flag
+ [x] Quotes are preserved
+ [x] Newlines are preserved
+ [x] Utf 8 chars are preserved
+
