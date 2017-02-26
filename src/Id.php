@@ -32,7 +32,7 @@ class Id
 
     public static function fromString(string $id): self
     {
-        $instance = new self();
+        $instance = new static();
         $instance->value = Uuid::fromString($id);
         return $instance;
     }
