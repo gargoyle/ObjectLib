@@ -20,3 +20,9 @@ Pmc\ObjectLib\Tests\MultilineString
  [x] Newlines are preserved
  [x] Utf 8 chars are preserved
 
+Pmc\ObjectLib\Tests\Serializable\ASH
+ [x] Object is serialized
+ [x] Object is unserialized 
+ [x] Throws exception with invalid serialized data 
+ [x] Throws exception when object doesnt implement interface
+
