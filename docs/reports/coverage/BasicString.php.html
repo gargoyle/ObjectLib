@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>Code Coverage for /Users/paul/Code/Projects/PMC_Networks/PMC_ObejctLib/src/BasicString.php</title>
+  <title>Code Coverage for /Users/paul/Projects/Library/PMC_ObejctLib/src/BasicString.php</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <div class="row">
      <div class="col-md-12">
       <ol class="breadcrumb">
-        <li><a href="index.html">/Users/paul/Code/Projects/PMC_Networks/PMC_ObejctLib/src</a></li>
+        <li><a href="index.html">/Users/paul/Projects/Library/PMC_ObejctLib/src</a></li>
         <li class="active">BasicString.php</li>
 
       </ol>
@@ -66,7 +66,7 @@
        </div>
 </td>
       <td class="success small"><div align="right">100.00%</div></td>
-      <td class="success small"><div align="right">14&nbsp;/&nbsp;14</div></td>
+      <td class="success small"><div align="right">15&nbsp;/&nbsp;15</div></td>
      </tr>
 
      <tr>
@@ -95,7 +95,7 @@
        </div>
 </td>
       <td class="success small"><div align="right">100.00%</div></td>
-      <td class="success small"><div align="right">14&nbsp;/&nbsp;14</div></td>
+      <td class="success small"><div align="right">15&nbsp;/&nbsp;15</div></td>
      </tr>
 
      <tr>
@@ -116,7 +116,7 @@
        </div>
 </td>
       <td class="success small"><div align="right">100.00%</div></td>
-      <td class="success small"><div align="right">12&nbsp;/&nbsp;12</div></td>
+      <td class="success small"><div align="right">13&nbsp;/&nbsp;13</div></td>
      </tr>
 
      <tr>
@@ -195,7 +195,7 @@
      <tr class="covered-by-large-tests popin" data-title="9 tests cover line 27" data-content="&lt;ul&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testWillNotConstructWhenStringIsLongerThanMaxAllowed&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testWillCastToString&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testApostropheInString&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testNonPrintableCharactersAreSanitised with data set #0&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testNonPrintableCharactersAreSanitised with data set #1&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testUtf8CharactersArePreserved with data set #0&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testUtf8CharactersArePreserved with data set #1&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testIsEqualToOtherWithTheSameValue&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testIsNotEqualToOtherWithDifferentValue&lt;/li&gt;&lt;/ul&gt;" data-placement="bottom" data-html="true"><td><div align="right"><a name="27"></a><a href="#27">27</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">if</span><span class="default">&nbsp;</span><span class="keyword">(</span><span class="default">mb_strlen</span><span class="keyword">(</span><span class="default">$sanitizedValue</span><span class="keyword">)</span><span class="default">&nbsp;</span><span class="keyword">&gt;</span><span class="default">&nbsp;</span><span class="default">$maxLength</span><span class="keyword">)</span><span class="default">&nbsp;</span><span class="keyword">{</span></td></tr>
      <tr class="covered-by-large-tests popin" data-title="1 test covers line 28" data-content="&lt;ul&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testWillNotConstructWhenStringIsLongerThanMaxAllowed&lt;/li&gt;&lt;/ul&gt;" data-placement="bottom" data-html="true"><td><div align="right"><a name="28"></a><a href="#28">28</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">throw</span><span class="default">&nbsp;</span><span class="keyword">new</span><span class="default">&nbsp;</span><span class="default">\</span><span class="default">InvalidArgumentException</span><span class="keyword">(</span><span class="default">sprintf</span><span class="keyword">(</span></td></tr>
      <tr class="covered-by-large-tests popin" data-title="1 test covers line 29" data-content="&lt;ul&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testWillNotConstructWhenStringIsLongerThanMaxAllowed&lt;/li&gt;&lt;/ul&gt;" data-placement="bottom" data-html="true"><td><div align="right"><a name="29"></a><a href="#29">29</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">'Value&nbsp;cannot&nbsp;be&nbsp;longer&nbsp;than&nbsp;%s&nbsp;characters'</span><span class="keyword">,</span></td></tr>
-     <tr><td><div align="right"><a name="30"></a><a href="#30">30</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$maxLength</span><span class="keyword">)</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
+     <tr class="covered-by-large-tests popin" data-title="1 test covers line 30" data-content="&lt;ul&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testWillNotConstructWhenStringIsLongerThanMaxAllowed&lt;/li&gt;&lt;/ul&gt;" data-placement="bottom" data-html="true"><td><div align="right"><a name="30"></a><a href="#30">30</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$maxLength</span><span class="keyword">)</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
      <tr><td><div align="right"><a name="31"></a><a href="#31">31</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">}</span></td></tr>
      <tr><td><div align="right"><a name="32"></a><a href="#32">32</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
      <tr class="covered-by-large-tests popin" data-title="8 tests cover line 33" data-content="&lt;ul&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testWillCastToString&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testApostropheInString&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testNonPrintableCharactersAreSanitised with data set #0&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testNonPrintableCharactersAreSanitised with data set #1&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testUtf8CharactersArePreserved with data set #0&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testUtf8CharactersArePreserved with data set #1&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testIsEqualToOtherWithTheSameValue&lt;/li&gt;&lt;li class=&quot;covered-by-large-tests&quot;&gt;Pmc\ObjectLib\Tests\TestBasicStringTest::testIsNotEqualToOtherWithDifferentValue&lt;/li&gt;&lt;/ul&gt;" data-placement="bottom" data-html="true"><td><div align="right"><a name="33"></a><a href="#33">33</a></div></td><td class="codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$this</span><span class="default">-&gt;</span><span class="default">value</span><span class="default">&nbsp;</span><span class="keyword">=</span><span class="default">&nbsp;</span><span class="default">(string)</span><span class="default">$sanitizedValue</span><span class="keyword">;</span></td></tr>
@@ -223,7 +223,7 @@
      <span class="warning"><strong>Dead Code</strong></span>
     </p>
     <p>
-     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.5</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.1</a> with <a href="https://xdebug.org/">Xdebug 2.5.0</a> and <a href="https://phpunit.de/">PHPUnit 5.7.9</a> at Mon Feb 27 23:17:07 UTC 2017.</small>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.6</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.5</a> with <a href="https://xdebug.org/">Xdebug 2.5.4</a> and <a href="https://phpunit.de/">PHPUnit 5.7.14</a> at Mon Jun 12 20:28:06 UTC 2017.</small>
     </p>
     <a title="Back to the top" id="toplink" href="#"><span class="glyphicon glyphicon-arrow-up"></span></a>
    </footer>

@@ -5,7 +5,7 @@ namespace Pmc\ObjectLib;
 use Ramsey\Uuid\Uuid;
 
 /**
- * A wrapper for \Ramsey\Uuid\Uuid to only expose the version 4 UUID and provide
+ * A wrapper for \Ramsey\Uuid\Uuid to only expose the version 1 UUID and provide
  * a simplified interface.
  * 
  * @author Gargoyle <g@rgoyle.com>
