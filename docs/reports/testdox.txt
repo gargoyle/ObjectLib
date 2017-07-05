@@ -24,6 +24,13 @@ Pmc\ObjectLib\Tests\MultilineString
  [x] Newlines are preserved
  [x] Utf 8 chars are preserved
 
+Pmc\ObjectLib\Tests\ParameterBag
+ [x] Can be created with initial contents
+ [x] Will reject non scalar values
+ [x] Will check required items are present
+ [x] Will throw exception when required items are not in bag
+ [x] Will throw exception when requested item is not in bag
+
 Pmc\ObjectLib\Tests\Serializable\ASH
  [x] Object is serialized
  [x] Object is unserialized 
