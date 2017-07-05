@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4" : {
-            "Pmc\\ObjectLib\\" : "src/"
+            "Pmc\\ObjectLib\\" : "src/Pmc/"
         }
     },
     "autoload-dev": {

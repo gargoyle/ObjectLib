@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1497299196">
-  <project timestamp="1497299196">
+<coverage generated="1499240143">
+  <project timestamp="1499240143">
     <package name="Pmc\ObjectLib">
-      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/BasicString.php">
+      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/BasicString.php">
         <class name="BasicString" namespace="Pmc\ObjectLib">
           <metrics complexity="6" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
         </class>
@@ -26,7 +26,7 @@
         <line num="43" type="stmt" count="2"/>
         <metrics loc="44" ncloc="38" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
       </file>
-      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Id.php">
+      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/Id.php">
         <class name="Id" namespace="Pmc\ObjectLib">
           <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
         </class>
@@ -43,7 +43,18 @@
         <line num="37" type="stmt" count="2"/>
         <metrics loc="40" ncloc="34" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
       </file>
-      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/MultilineString.php">
+      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/Json.php">
+        <class name="Json" namespace="Pmc\ObjectLib">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="11" type="method" name="decode" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="16" type="method" name="encode" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="21" ncloc="17" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/MultilineString.php">
         <class name="MultilineString" namespace="Pmc\ObjectLib">
           <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
         </class>
@@ -60,8 +71,11 @@
         <metrics loc="37" ncloc="29" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
       </file>
     </package>
+    <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/ClassMap.php">
+      <metrics loc="14" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
     <package name="Pmc\ObjectLib\Serializable">
-      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Serializable/ASH.php">
+      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/Serializable/ASH.php">
         <class name="ASH" namespace="Pmc\ObjectLib\Serializable">
           <metrics complexity="5" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
         </class>
@@ -79,16 +93,16 @@
         <line num="32" type="stmt" count="2"/>
         <metrics loc="34" ncloc="31" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
       </file>
-      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Serializable/InvalidSerializedDataException.php">
+      <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/Serializable/InvalidSerializedDataException.php">
         <class name="InvalidSerializedDataException" namespace="Pmc\ObjectLib\Serializable">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="10" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Serializable/ArraySerializable.php">
+    <file name="/Users/paul/Projects/Library/PMC_ObejctLib/src/Pmc/ObjectLib/Serializable/ArraySerializable.php">
       <metrics loc="12" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="6" loc="177" ncloc="148" classes="4" methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="40" elements="51" coveredelements="51"/>
+    <metrics files="8" loc="212" ncloc="174" classes="5" methods="13" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="43" elements="56" coveredelements="56"/>
   </project>
 </coverage>

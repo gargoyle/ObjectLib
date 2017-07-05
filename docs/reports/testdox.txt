@@ -13,6 +13,10 @@ Pmc\ObjectLib\Tests\Id
  [x] Can create from existing id
  [x] The same ids are equal
 
+Pmc\ObjectLib\Tests\Json
+ [x] Will encode using expected options
+ [x] Will decode into original form
+
 Pmc\ObjectLib\Tests\MultilineString
  [x] Will not construct with blank string
  [x] Blank strings allowed with additional flag
