@@ -7,7 +7,7 @@ namespace Pmc\ObjectLib;
  * 
  * @author Gargoyle <g@rgoyle.com>
  */
-interface ClassMap
+interface ClassNameMap
 {
     public function getNameForClass(string $className);
     public function getClassForName(string $name);
